@@ -2,14 +2,14 @@
 
 /***************** 헤더*********************** */
 header {
-	width: 100%;
+	width: 1903px;
 	height: 85px;
 	color: #C0C0C0;
 	background-color: rgb(255, 255, 255);
 	position: fixed;
 	top: 0px;
 	z-index: 991;
-	overflow-x:hidden;
+	
 }
 
 .header_wrap {
@@ -17,6 +17,7 @@ header {
 	height: 85px;
 	background-color: rgb(255, 255, 255);
 	margin: 0 auto;
+	overflow:hidden;
 }
 
 .header_logo {
@@ -69,25 +70,28 @@ header {
 }
 
 /***************** 메인*********************** */
-section {
-	clear: both;
-	width: 1920px;
-	height: 3000px;
-	background-color: red;
-	margin: 85px auto;
-}
+ section{
+	
+	width: 1903px;
+	height: 3043px;
+	background-color:white;
+	
+} 
 
 .section_wrap {
-	width: 100%;
-	height: 2777px;
+	width: 1903px;
+	height: 3043px;
+	background-color: white;
+	margin: 85px auto;
+	
 }
 /********************** 메인사진1**************************/
 .mi1 {
-	width: 100%;
+	width: 1903px;
 	height: 850px;
 	z-index: 10;
 	position: relative;
-	overflow-x: hidden;
+
 }
 
 .wr1 {
@@ -134,12 +138,12 @@ section {
 
 .mi2{
 	margin-top: 120px;
-	width: 1920px;
+	width: 1903px;
 	height: 1080px;
 	
 	z-index: 12;
 	position: relative;
-	overflow-x: hidden;
+	
 	
 }
 
@@ -185,13 +189,14 @@ section {
 /********************** 메인안에있는 중간 헤더*********************/
 .wr3{
 	
-	width:100%;
+	width:1903px;
 	height: 80px;
 	
 	overflow-x: hidden;
 	
 	background-color: white;
 	margin-top: 120px; 
+	overflow: hidden;
 	
 }
 
@@ -200,9 +205,9 @@ section {
 	height: 80px;
 	background-color: white;
 	margin: 0 auto;
-	
-	
+
 }
+
 
 
 #bw3_1{
@@ -212,6 +217,8 @@ section {
 	margin-right: 2%;
 	padding-top:0.9%;
 }
+
+
 
 .bw3_2{
 	font-size: 1.8rem;
@@ -225,16 +232,18 @@ section {
 	font-size: 1.5rem;
 }
 
-#bw3_4{
-	color: #e5e5e5;
+.bw3_2:hover a{
+	opacity: 0.7;
+	
 }
+
 
 
 /****************************메인 메뉴사진3 ***************************/
 .wr4{
-	width:100%;
-	height:780px;
-	
+	width:1903px;
+	height:600px;
+	overflow: hidden;
 	
 }
 
@@ -248,46 +257,551 @@ section {
 .p1{
 	float: left;
 	margin-right:204.6px;
-}
-
-.p2{
 	
 }
+.p1:hover{
+	opacity: 0.4;
+	
+}
+
+
+.p2:hover{
+	opacity: 0.4;
+}
+
+
+
 
 .p3{
 	float: right;
 }
 
+.p3:hover{
+	opacity: 0.4;
+}
+
+
+
 .wr5{
 	width: 93.5%;
 	height: 70px;
-	background-color: green;
+	
 	margin: 0 auto;
-		
+	
 }
 
 .wr5_1{
 	width:462px;
 	height:70px;
-	background-color:black;
+	background-color:#f4f4f4;
 	
+	display:inline-block;
 	float: left;
-	/* margin-right:204.6px; */
+ 	margin-right:204.6px; 
 	
 }
 
 .wr5_2{
 	width:462px;
 	height:70px;
-	background-color:black;
+	
+	display:inline-block;
+	background-color:#f4f4f4;
+	
 }
 
 .wr5_3{
 	width:462px;
 	height:70px;
 	float: right;
-	background-color:black;
+	
+	display:inline-block;
+	background-color:#f4f4f4;
+	
 }
 
 
+#b1{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size:20px;
+	
+	position: relative;
+	
+	float: left;
+	margin-left: 30px;
+}
+
+.box3{
+	width: 3rem;
+	height: 3rem;
+	border: 1px solid #e5e5e5;
+	border-radius: 27px;
+	background-color: white;
+	
+
+
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 384px;
+
+}
+
+#b1_1{
+	padding-top:12px;
+	font-weight: bold;
+	text-align: center;
+	
+}	
+	
+.box3:hover{
+	background: #292929;
+	color: white;
+	border-color: #292929;
+	
+}	
+	
+
+#b2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size:20px;
+	
+	margin-left: 30px;
+	position: relative;
+	float: left;
+}
+
+#b3{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size:20px;
+	
+	margin-left: 30px;
+	position: relative;
+	float: left;
+}
+
+/********************** 메인메뉴4 ***********************/
+.wr6{
+	
+	width: 1903px;
+	height: 116px;
+	background-color:white;
+	
+}
+
+.wrr6{
+	width: 93.5%;
+	height: 116px;
+	
+	margin: 0 auto;
+	
+	
+}
+
+
+.wr6_1{
+	width: 25%;
+	height: 116px;
+	
+	float: left;
+	
+}
+
+.wr6_1:hover{
+	display: block;
+	margin-top: 10px;
+	
+}
+
+
+.wr6_2{
+	width: 25%;
+	height: 116px;
+	
+	float: left;
+}
+
+.wr6_2:hover{
+	display: block;
+	margin-top: 10px;
+	
+}
+
+.wr6_3{
+	width: 25%;
+	height: 116px;
+	
+	float: left;
+	
+}
+
+.wr6_3:hover{
+	display: block;
+	margin-top: 10px;
+	
+}
+
+.wr6_4{
+	width: 25%;
+	height: 116px;
+	
+	float: left;
+	
+}
+
+.wr6_4:hover{
+	display: block;
+	margin-top: 10px;
+	
+}
+
+
+#sm1{
+	margin-top: 31.5px;
+	padding-left: 300px;
+}
+
+#sm2{
+	margin-top: 31.5px;
+	padding-left: 200px;
+}
+
+#sm3{
+	margin-top: 31.5px;
+	padding-left: 150px;
+}
+
+#sm4{
+	margin-top: 31.5px;
+	padding-left: 50px;
+	
+}
+
+#sm5{
+	margin-top: 5px;
+	padding-left: 300px;
+}
+
+#sm6{
+	margin-top: 5px;
+	padding-left: 200px;
+}
+
+#sm7{
+	margin-top: 5px;
+	padding-left: 150px;
+}
+
+#sm8{
+	margin-top: 5px;
+	padding-left: 50px;
+}
+
 /***************** 푸터*********************** */
+
+footer{
+	width: 1903px;
+	height: 856px;
+	background-color:black;
+	clear: both;		
+}
+
+.footer_wrap1{
+	width: 1903px;
+	height: 407.13px;
+	background-color: #f4f4f4;
+	
+}
+
+
+/* 푸터 렙 */
+
+.fwr1{
+	margin-top:76.11px; 
+	width: 456.72px;
+	height: 254.91px;
+	background-color: #f4f4f4;
+	float: left; 
+	
+	margin-left:106px;
+	
+}
+	
+.fwr1 img{
+	
+	float:left;
+	width:40px;
+	height:33.91px;
+	margin-right: 8px;
+	margin-top:4px;
+	
+}
+
+#fwr1_1{
+	
+	font-size:1.3rem;
+	margin-top: 10px;
+	font-weight: bold;
+	
+}	
+
+#fwr1_2{
+	
+	font-size:0.8rem;
+	
+}	
+	
+	
+.box5{	
+	width: 7.6rem;
+	height: 2.8rem;
+	
+	border: 1px solid #e5e5e5;
+	border-radius: 27px;
+	background-color: #292929;
+	
+	margin-top:25px;
+	color:white;
+
+}
+
+
+.box5:hover{
+	color:black;
+	background-color: white;
+	border-color: #e5e5e5;
+	
+}
+
+
+
+#box5w1{
+	text-align: center;
+	
+	line-height:43px;
+	
+}
+
+#box5w2{
+	font-size: 0.2rem;
+	font-weight: bold;
+	color: #545454;
+	margin-top: 14px;
+}
+
+
+.box6{
+	width: 455.4px;
+	height:42px;
+	
+	border: 1px solid #e5e5e5;
+	border-radius: 27px;
+	background-color: white;
+	color:black;
+	
+	margin-top:13px;
+	
+}
+
+.box6:hover{
+	color:white;
+	background-color: black;
+	border-color: #e5e5e5;
+	
+	
+}
+
+#box5w3{
+	text-align: center;
+	font-size: 1.1rem;
+	margin-top:10.5px;
+	
+}
+
+
+/*fwr1끝  */	
+	
+.fwr2{
+	margin-top:76.11px; 
+	height: 254.91px;
+	width: 304.47px;
+	background-color: #f4f4f4;
+	
+	float: left; 
+	
+	margin-left:106px;
+	color:#292929;
+	font-size: 0.7rem;
+}
+
+
+.fwr2 > div {
+	
+	margin-top:17px;
+}
+
+.fwr2 a{
+	color:#292929;
+	
+}
+
+
+
+/* fwr2끝  */
+
+.fwr3{
+	margin-top:76.11px; 
+	height: 254.91px;
+	width: 304.47px;
+	background-color: #f4f4f4;
+	float: left; 
+	
+	margin-left:106px;
+	color:#292929;
+	
+	
+}
+
+.fwr3 > p {
+		
+		font-size: 0.5rem;
+		font-weight: bold;
+		margin-bottom:17px;
+}
+
+
+.fwr3 > div{
+	margin-top:11px;
+	font-size: 0.7rem;
+}
+
+
+/* fwr3끝  */
+
+.fwr4{
+	margin-top:76.11px; 
+	height: 254.91px;
+	width: 304.47px;
+	background-color: #f4f4f4;
+	float: left; 
+	color:#292929;
+	margin-left:96px;
+}
+
+
+.fwr4 p {
+	font-size: 0.6rem;
+	font-weight: bold;
+		
+}
+
+.fwr4 > div{
+	margin-top:17px;
+	font-size: 0.7rem;
+	
+}
+
+.fwr4_1{
+	font-weight: bold;
+	
+}
+
+/* fwr4끝  */
+
+/* footer_wrap1 끝 */
+
+.footer_wrap2{
+	width: 1903px;
+	height: 156px;
+	background-color: #f4f4f4;
+	border-top:1px solid #787878;
+	
+}
+
+.footer_wrap2 p{
+	font-size: 0.73rem;
+	font-weight: bold;
+	color: #787878;
+	margin-top:71px;
+	margin-left: 926px;
+}
+
+/* footer_wrap2 끝 */
+
+.footer_wrap3{
+	width:1903px;
+	height:200.22px;
+	background-color: white;
+}
+
+.fwr3_1{
+	font-size: 0.7rem;
+	width:677px;
+	height: 48px;
+	float: left;
+	color:#292929;
+	margin: 76.11px 0 76.11px 90px;
+		
+}
+
+.fwr3_2{
+	font-size: 0.7rem;
+	width:500px;
+	height: 48px;
+	float: right;
+	color:#292929;
+	margin: 76.11px 38px 76.11px 0;
+		
+}
+
+/* footer_wrap3끝 */
+
+.footer_wrap4{
+	width: 1903px;
+	height: 92.65px;
+	background-color: white;
+	
+}
+
+
+.fowr4_1{
+	width:622px;
+	height: 32.3px;
+	font-size: 0.7rem;
+	float:left;
+
+	padding-left: 90px;	
+	padding-top: 37.82px;
+}
+
+.fowr4_1 a{
+	color:#292929;
+}
+
+
+ .fowr4_2{
+	width:127.95px;
+	height: 32.36px; 
+	float: right;
+	padding-top: 37.82px;
+	
+} 
+
+.fowr4_3{
+	width: 20px;
+	height: 20px;
+	margin-top:1px; 
+}
+
+.fowr4_4{
+	text-decoration:underline;
+	color:#292929;
+	float: right;
+	margin-right: 60px;
+	
+}
+
+
+
